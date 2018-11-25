@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './loginPage.css';
 import ChatPage from '../chatPage/chatPage.js';
 import io from 'socket.io-client';
+import localStorage from '../common/localStorage/localStorage.js';
+window.localStorage = localStorage;
 
 class LoginPage extends Component {
 

@@ -5,6 +5,9 @@ import mp3_file from '../app/assets/sound/ping.mp3';
 import userImg from './user.png';
 import chatIcon from './chatIconPushNotification.png';
 import LoginPage from '../loginPage/loginPage.js';
+import localStorage from '../common/localStorage/localStorage.js';
+window.localStorage = localStorage;
+
 class ChatPage extends Component {
 
     constructor(props) {
