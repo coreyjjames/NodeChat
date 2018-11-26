@@ -9,7 +9,7 @@
   "scripts": {
     "start": "react-scripts start",
     "buildCI": "CI=true react-scripts build",
-    "testCI": "CI=true npm test",
+    "testCI": "CI=true npm test --ci",
     "test": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject"
   },
