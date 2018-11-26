@@ -10,7 +10,7 @@
     "start": "react-scripts start",
     "buildCI": "CI=true react-scripts build",
     "testCI": "CI=true npm test --ci",
-    "test": "react-scripts test --env=jsdom --coverage",
+    "test": "react-scripts test --env=jsdom --forceExit",
     "eject": "react-scripts eject"
   },
   "repository": {
