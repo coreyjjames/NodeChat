@@ -8,8 +8,9 @@
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "buildCI": "CI=true react-scripts build",
+    "testCI": "CI=true npm test",
+    "test": "react-scripts test --env=jsdom --forceExit --watchAll",
     "eject": "react-scripts eject"
   },
   "repository": {
