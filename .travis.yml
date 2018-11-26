@@ -6,4 +6,4 @@ cache:
     - node_modules
 script:
   - npm run buildCI
-  - npm testCI
+  - npm run testCI
