@@ -157,7 +157,7 @@ class ChatPage extends Component {
         // Iterate through the list of image file formats
         for (var files in imageFormats) {
             // Check if the file type passed to the method is in our list of approved image file formats
-            if (imageFormats.hasOwnProperty(filetype) === true) {
+            if (files.hasOwnProperty(filetype) === true) {
                 return true;
             }
         }
